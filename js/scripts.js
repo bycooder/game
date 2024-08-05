@@ -24,8 +24,8 @@ function compMove() {
 
 paper.onclick = () => {
   compMove();
-  moves.innerHTML = `siz <img src="../img/2.png" alt="" />
-    <img src="../img/${randomNumber}.png" alt="" /> computer`;
+  moves.innerHTML = `siz <img src="./img/2.png" alt="" />
+    <img src="./img/${randomNumber}.png" alt="" /> computer`;
   if (computerMove === "rock") {
     result.innerHTML = `siz Yutdingiz🎉`;
     wins++;
@@ -40,8 +40,8 @@ paper.onclick = () => {
 };
 rock.onclick = () => {
   compMove();
-  moves.innerHTML = `siz <img src="../img/1.png" alt="" />
-    <img src="../img/${randomNumber}.png" alt="" /> computer`;
+  moves.innerHTML = `siz <img src="./img/1.png" alt="" />
+    <img src="./img/${randomNumber}.png" alt="" /> computer`;
   if (computerMove === "rock") {
     result.innerHTML = `Bir xil🤷‍♂️`;
     tie++;
@@ -56,8 +56,8 @@ rock.onclick = () => {
 };
 scissors.onclick = () => {
   compMove();
-  moves.innerHTML = `siz <img src="../img/3.png" alt="" />
-    <img src="../img/${randomNumber}.png" alt="" /> computer`;
+  moves.innerHTML = `siz <img src="./img/3.png" alt="" />
+    <img src="./img/${randomNumber}.png" alt="" /> computer`;
   if (computerMove === "rock") {
     result.innerHTML = `siz yutqazdingiz🙇‍♂️`;
     loses++;
