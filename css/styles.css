@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+body {
+  background-color: #eee;
+  display: inline-block;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 600px;
+  margin: auto;
+
+  box-shadow: 2px 2px 30px black;
+  border-radius: 50px;
+}
+h1 {
+  font-size: 3rem;
+}
+.mainBtns {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 4rem;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: aquamarine;
+}
+.infoPlace {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+.infoPlace img {
+  height: 30px;
+}
+.resetBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+}
